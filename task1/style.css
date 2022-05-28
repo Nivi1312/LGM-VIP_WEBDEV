@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:100%;
+    height:606px;
+    background:rgb(32,145,221)
+}
+ul{
+    position:absolute;
+    top:5%;
+    right:5%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right:70px;
+}
+ul li a{
+    text-decoration:none ;
+    font-family:sans-serif;
+    font-weight:600;
+    color:white;
+}
+.thumbnail {
+    padding-top: 7%;
+}
+.thumbnail li{
+    list-style: none;
+    position:relative;
+    margin-top:50px;
+}
+
+.thumbnail img{
+    display: block;
+    max-width: 102px;
+}
+.thumbnail img:hover{
+    transform:translateX(30px);
+    transition: 0.5s;
+}
+.big-img img{
+    position: absolute;
+    left:35%;
+    top:40%;
+    max-width: 700px;
+    max-height: 300px;
+    
+}
+.content{
+    position: absolute;
+    cursor: pointer;
+    max-width: 50%;
+    right:30%;
+    top:20%;
+}
+.path{
+    position: absolute;
+    width:100%;
+    height:100vh;
+    background: #e5e5e5;
+    clip-path: circle(313px at left);
+
+}
+.formoutline{
+    padding-top:20px;
+    background:rgb(32,145,221);
+    color:white;
+}
+
+.footer{
+    background: black;
+    position:absolute;
+    text-align:center;
+    width:100%;
+    color:white
+}
+.customercare:hover
+{
+    color:rgb(250, 244, 244)
+}
+.privacypolicy:hover
+{
+    color:rgb(250, 244, 244)
+}
+
+.career:hover
+{
+    color:rgb(250, 244, 244)
+}
+.home:hover
+{
+    color:rgb(167, 11, 11);
+}
+.services:hover
+{
+    color:rgb(167, 11, 11);
+}
+.contact:hover
+{
+    color:rgb(167, 11, 11);
+}
+.aboutus:hover
+{
+    color:rgb(167, 11, 11);
+}
